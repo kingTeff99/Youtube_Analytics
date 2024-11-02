@@ -5,6 +5,8 @@ from constants import YOUTUBE_API_KEY, PLAYLIST_ID
 from kafka import KafkaProducer
 from pprint import pprint
 
+#J'ajoute une ligne pour le fun
+
 
 def fetch_page(url, parameters, page_token = None):
     params = {**parameters, 'key' : YOUTUBE_API_KEY, 'page_token' : page_token}
